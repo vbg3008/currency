@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Currency Converter</h1>
+    <!-- <span id="symbol"></span> -->
+    <div class="conversion-sys">
+        <div class="from">
+            <label for="from">From</label>
+                <select name="from" id="from">
+                    <option value="INR">INR</option>
+                    <option value="USD">USD</option>
+                    <option value="RAND">RAND</option>
+                    <option value="PHP">PHP</option>
+                </select>
+
+                <input type="number" name="fPrice" autofocus id="fPrice">
+        </div>
+        <span>==============</span>
+
+        <div class="to">
+            <label for="to">To</label>
+                <select name="to" id="to">
+                    <option value="INR">INR</option>
+                    <option value="USD">USD</option>
+                    <option value="RAND">RAND</option>
+                    <option value="PHP">PHP</option>
+                </select>
+
+                <input type="number" name="tPrice" id="tPrice">
+        </div>
+    </div>
+
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
